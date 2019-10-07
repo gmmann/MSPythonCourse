@@ -38,10 +38,10 @@
 
 
 country = input('What country are you from? ')
-province = input('What province are you buying goods: ')
 tax = 0
-if country == 'Canada':
-    if province in ('Alberta', 'Nunavut', 'Yukon'):
+if country.lower() == 'canada':
+    province = input('What province are you buying goods: ')
+    if province.lower() in ('alberta', 'nunavut', 'yukon'):
         tax = 0.05
     elif province == 'Ontario':
         tax = 0.13
