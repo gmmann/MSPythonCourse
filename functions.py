@@ -64,7 +64,7 @@ print('loop completed')
 print(datetime.now())
 print()
 
-
+# Function to print date and time
 def print_time(task_name):
     print(task_name)
     print(datetime.now)
@@ -89,20 +89,25 @@ print()
 # print('Your initials are: ' + first_name_iniital + last_name_iniital)
 
 
-
+#must be called BEFORE the function is called
 def get_initial(name):
     initial = name[0:1].upper()
     return initial
 
 first_name = input('Enter your first name: ')
+middle_name = input('Enter your middle name: ')
 last_name = input('Enter your last name: ')
 
 first_name_iniital = get_initial(first_name)
+middle_name_iniital = get_initial(middle_name)
 last_name_iniital = get_initial(last_name)
 print('Your initials are: ' + first_name_iniital + last_name_iniital)
 print()
-print('Your initials are via function: ' + get_initial(first_name) + get_initial(last_name))
+print('Your initials are via function: ' + get_initial(first_name) + get_initial(middle_name) + get_initial(last_name))
 print()
+
+
+
 
 
 
