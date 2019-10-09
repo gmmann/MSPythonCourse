@@ -60,3 +60,6 @@ first_number = 10
 second_number = 5
 if first_number > second_number:
     error_logger(error_code=45, error_severity=1, log_to_db=True, error_message='Second number greater than first', source_module='my_math_method')
+
+
+
