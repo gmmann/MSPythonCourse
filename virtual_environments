@@ -1,0 +1,17 @@
+# Chapter 34
+# # by default packages are installed globally
+# # # version management becomes a challenge
+
+# # virtual environments can be used to contain and manage package collections
+# # # really just a folder behind the scenes with all your packages
+
+
+# Install the virtual environment
+pip install virtualenv
+
+# Windows Systems
+python -m venv <folder_name>
+
+#OSX/Linux (bash)
+virtualenv <folder_name>
+

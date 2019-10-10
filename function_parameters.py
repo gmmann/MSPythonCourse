@@ -9,12 +9,12 @@ def get_initial(name, force_uppercase):
 
 
 first_name = input('Enter your first name: ')
-# middle_name = input('Enter your middle name: ')
-# last_name = input('Enter your last name: ')
+middle_name = input('Enter your middle name: ')
+last_name = input('Enter your last name: ')
 
 first_name_initial = get_initial(first_name, False)
-# middle_name_iniital = get_initial(middle_name)
-# last_name_iniital = get_initial(last_name)
+middle_name_initial = get_initial(middle_name, False)
+last_name_iniital = get_initial(last_name, False)
 
 print('Your initials are: ' + first_name_initial)
 # print()
@@ -42,8 +42,8 @@ first_name_initial_forceupper = get_initial(force_uppercase=True,  name=first_na
 # middle_name_iniital = get_initial(middle_name)
 # last_name_iniital = get_initial(last_name)
 
-print('Your initials are: ' + first_name_initial)
-print('Your initials are in upper: ' + first_name_initial_ForceUpper)
+print('Your initials are: ' + first_name_initial + middle_name_initial + last_name_iniital)
+print('Your initials are in upper: ' + first_name_initial_ForceUpper + middle_name_initial.upper() + last_name_iniital.upper())
 
 print('Your initials are in upper with both fields defined: ' + first_name_initial_forceupper)
 # print()
