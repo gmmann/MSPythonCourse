@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "c:\\Users\\gmann\\Documents\\GitHub\\gmann\\MSPythonCourse\\venv\\Scripts\\python.exe",
+    "python.pythonPath": "C:\\Python3\\python.exe",
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true
 }
