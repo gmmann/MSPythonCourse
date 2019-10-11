@@ -15,3 +15,11 @@ python -m venv <folder_name>
 #OSX/Linux (bash)
 virtualenv <folder_name>
 
+THEN
+./venv/Scripts/activate.ps1
+(venv) PS C:\Users\gmann\Documents\GitHub\gmann\MSPythonCourse>
+shows up
+
+
+
+pip install colorama

@@ -1,0 +1,28 @@
+# api is usually just a web service on a web server
+
+You can't call a function unless you know the function name and the required parameters
+
+
+When you create a web service you create an Application Programming Interface(API)
+
+
+The API defines the fuction names and parameters so others know how to call your function.
+
+analyze(visualfeatures, details, language)
+
+
+https://westus.api.cognitive.microsoft.com/vision/v2.0/analyze[?visualFeatures][&details][&language]
+
+
+keys...
+
+
+requests library...
+posts..gets
+
+testing with cognitive service in Azure
+
+
+https://eastus.api.cognitive.microsoft.com/
+key1 : 630a24d23518fcca05232adb949fae9
+

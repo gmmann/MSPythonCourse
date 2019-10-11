@@ -1,0 +1,19 @@
+json linting
+helps format so json is easier to read
+
+
+
+key pairs
+
+
+key : value
+"key" : "value"
+
+
+
+{"key":
+        {"subkey0":"subvalue0","subkey1":"subvalue1",...}
+}
+
+{"key":[listvalue0,listvalue1,listvalue2,...]}
+

@@ -31,7 +31,7 @@ display('Not a warning')
 # pip install colorama
 
 # # install from a list of  packages
-# pip install colorama
+# pip install -r requirements.txt 
 
 # # requirements.txt
-colorama
+# colorama
