@@ -1,0 +1,27 @@
+Don't put keys in python scripts....
+
+not in clear text
+
+
+use environmental variables
+
+
+values outside of your application
+connecting to a database
+determining operating system
+settings which need to change
+sensitive data
+
+
+import outside
+os_version = os.getenv('OS')
+print(os_version)
+
+
+
+don't hardcode sensitive info ever!!
+ used dotenv for a simple solution
+ add .env to .gitignore
+
+consider full encryption options
+Azure Key vault!  (marketing!!)

@@ -1,1 +1,4 @@
-colorama
+# colorama
+
+# pip install -r ./requirements.txt
+python-dotenv
