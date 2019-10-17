@@ -1,0 +1,26 @@
+
+
+Objects
+    Nouns
+    data constructs
+
+Functions/Methods
+    Verbs
+    ACtions
+
+
+Decorators
+    Adjectives
+    Add functionality to code
+    common in frameworks
+        Django
+        Flask
+
+# Snippet from Flask
+# Register https://myserver/api/products
+
+@route('api/products')
+def get_products:
+    # code to list from database
+    pass
+    

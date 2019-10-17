@@ -25,3 +25,7 @@ don't hardcode sensitive info ever!!
 
 consider full encryption options
 Azure Key vault!  (marketing!!)
+
+
+Azure has app services , configuration settings
+with app settings
